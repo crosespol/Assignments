@@ -19,7 +19,6 @@ def count_surrounding_ones(matrix, row, col):
     return count
 
 # Iterate through the matrix and count surrounding ones for each cell
-
 while gen < 3:
     #Initialize the matrix with zeros every time, otherwise we are overwritting the matrix in every loop
     matrix2 = np.random.randint(0, 1, (10, 10))

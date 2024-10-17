@@ -45,7 +45,7 @@ def load_the_game(rows, columns, generations):
     #print(matrix) - Vaig haver d'imprimir aquesta i l'ultima matriu per veure que pasava a partir e la generació 29, que es quedava en un loop per sempre. Pero esta funcionant correctament, el programa acaba en "tablas"
     while gen < generations:
         #Initialize the matrix with zeros every time, otherwise we are overwritting the matrix in every loop
-        #matrix2 = np.random.randint(0, 1, (10, 10)) - Tenia problemes i he mirat si s'arreglaven amb l'altre matriu
+        #matrix2 = np.random.randint(0, 1, (10, 10)) - Tenia problemes i he mirat si s'arreglaven amb l'altre matriu. Les dos funcionen igual.
         matrix2 = np.zeros((rows, columns), dtype=int)
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
